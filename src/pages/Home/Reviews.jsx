@@ -1,7 +1,7 @@
-import profile1 from "../assets/images/profile-1.jpg";
-import profile2 from "../assets/images/profile-2.jpg";
-import profile3 from "../assets/images/profile-3.jpg";
-import img from "../assets/images/bg-quotes.png";
+import profile1 from "../../assets/images/profile-1.jpg";
+import profile2 from "../../assets/images/profile-2.jpg";
+import profile3 from "../../assets/images/profile-3.jpg";
+import img from "../../assets/images/bg-quotes.png";
 const Reviews = () => {
   const data = [
     {
@@ -24,8 +24,8 @@ const Reviews = () => {
     },
   ];
   return (
-    <section className="py-32">
-      <div className="container ">
+    <section>
+      <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 relative  gap-5">
           <img
             src={img}

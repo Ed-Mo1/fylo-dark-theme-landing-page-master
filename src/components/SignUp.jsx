@@ -18,7 +18,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="max-w-[1200px] w-[95%] mx-auto bg-primaryDarkBlueTestimonials p-12 rounded shadow-lg">
+    <div className="max-w-[1200px] w-[95%] mx-auto bg-primaryDarkBlueTestimonials p-12 max-sm:p-6 rounded shadow-lg">
       <h2 className="text-3xl max-sm:text-lg text-neutralWhite font-raleway font-bold text-center">
         Get early access today
       </h2>

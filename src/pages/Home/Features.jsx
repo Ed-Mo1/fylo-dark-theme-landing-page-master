@@ -27,7 +27,7 @@ const Features = () => {
     },
   ];
   return (
-    <div className="py-32">
+    <section>
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 items-start gap-12">
           {data.map(({ icon, title, text }, id) => (
@@ -43,7 +43,7 @@ const Features = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

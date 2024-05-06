@@ -3,7 +3,7 @@ import HeroBanner from "./pages/Home/HeroBanner";
 import Footer from "./components/Footer";
 import Features from "./pages/Home/Features";
 import Work from "./pages/Home/Work";
-import Reviews from "./pages/Reviews";
+import Reviews from "./pages/Home/Reviews";
 const App = () => {
   return (
     <>

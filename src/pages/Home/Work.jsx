@@ -3,7 +3,7 @@ import { PiArrowCircleRightFill } from "react-icons/pi";
 
 const Work = () => {
   return (
-    <section className="py-32">
+    <section>
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
