@@ -4,7 +4,7 @@ import curvySm from "../../assets/images/bg-curvy-mobile.svg";
 import Btn from "../../components/Btn";
 const HeroBanner = () => {
   return (
-    <section className="bg-primaryDarkBlueTestimonials pt-12 max-sm:pt-0 pb-60 max-sm:pb-16 relative z-10">
+    <section className="bg-primaryDarkBlueTestimonials pt-12 max-sm:pt-4 pb-60 max-sm:pb-16 relative z-10">
       <img
         src={curvyLG}
         className="absolute bottom-0 left-0 right-0 w-full z-[-1] md:block hidden"
