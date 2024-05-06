@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+}
+
+@layer components {
+  .link {
+    @apply text-neutralWhite duration-300 text-lg max-sm:text-sm text-opacity-70 hover:text-opacity-100 font-raleway capitalize hover:underline;
+  }
+  .btn {
+    @apply bg-gradient-to-r from-accentCyan to-accentBlue w-full font-raleway text-lg max-sm:text-sm font-bold hover:from-[#87f8f0] hover:to-accentCyan rounded-full p-4 text-neutralWhite;
+  }
+}
